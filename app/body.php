@@ -11,7 +11,7 @@ R::setup( 'mysql:host=147.135.39.236;dbname=cbtisnet_secundaria', 'cbtisnet_secu
 Flight::route('/', function () {
     require 'app/header.php';
     SESSION_START();        
-    $_SESSION['server']="https://netlify.app/Secundaria/";
+    $_SESSION['server']="https://cbtis169.net/Secundaria/";
     ?>
     <div class="container mt-3">
     <h1 class="text text-center">Accesso al Sistema</h1>
